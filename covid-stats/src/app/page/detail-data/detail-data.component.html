@@ -1,0 +1,11 @@
+<!-- src/app/page/detail-data/detail-data.component.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detail Data</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div *ngIf="detailData">
+    <pre>{{ detailData | json }}</pre>
+  </div>
+</ion-content>

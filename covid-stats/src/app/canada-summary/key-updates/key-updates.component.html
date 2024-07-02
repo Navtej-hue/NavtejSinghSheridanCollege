@@ -1,0 +1,11 @@
+<!-- src/app/canada-summary/key-updates/key-updates.component.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Key Updates</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div *ngIf="updates">
+    <pre>{{ updates | json }}</pre>
+  </div>
+</ion-content>
